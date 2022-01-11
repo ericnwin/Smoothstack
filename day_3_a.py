@@ -71,13 +71,11 @@ def guess_number(n):
 
 
 def generate_triangle(pattern="*"):
-    count = 2
-    for i in range(9):
+
+    for i in range(10):
         #print(f"i: {i}")
-        #print(f"Count: {count}")
         if i > 5:
-            i = i - count
-            count += 1
+            i = i -
         print(pattern * i)
 
 
