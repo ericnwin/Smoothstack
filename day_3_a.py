@@ -70,13 +70,69 @@ def guess_number(n):
 '''
 
 
-def generate_triangle(pattern="*"):
+def generate_triangle(pattern="*", n=5):
 
-    for i in range(10):
-        #print(f"i: {i}")
-        if i > 5:
-            i = i -
+    for i in range(n):
+        print(pattern * i)
+    for i in range(n-2, 0, -1):
         print(pattern * i)
 
 
-generate_triangle()
+generate_triangle("*", 5)
+
+'''
+6. Write a Python program that accepts a word from the user and reverse it. Go to the editor
+'''
+
+
+def reverse_string(user_string):
+    return user_string[::-1]
+
+
+print(reverse_string("Python"))
+
+'''
+7.	 Write a Python program to count the number of even and odd numbers from a series of numbers. Go to the editor
+Sample numbers : numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
+Expected Output : 
+Number of even numbers : 4
+Number of odd numbers : 5
+'''
+
+
+def count_odd_even_numbers(list_numbers):
+    odd = []
+    even = []
+    for number in list_numbers:
+        if number % 2 == 0:
+            even.append(number)
+
+        else:
+            odd.append(number)
+    print(f"Number of even numbers : {len(even)}")
+    print(f"Number of odd numbers : {len(odd)}")
+
+
+numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 14)
+count_odd_even_numbers(numbers)
+
+'''
+8.	Write a Python program that prints each item and its corresponding type from the following list.
+Sample List : datalist = [1452, 11.23, 1+2j, True, 'w3resource', (0, -1), [5, 12], {"class":'V', "section":'A'}]
+'''
+datalist = [1452, 11.23, 1+2j, True, 'w3resource',
+            (0, -1), [5, 12], {"class": 'V', "section": 'A'}]
+
+for data in datalist:
+    print(f"Data is {data} and it's type is {type(data)}")
+
+
+'''
+9.	Write a Python program that prints all the numbers from 0 to 6 except 3 and 6
+Note : Use 'continue' statement. 
+Expected Output : 0 1 2 4 5 
+'''
+for number in range(6):
+    if number == 3 or number == 6:
+        continue
+    print(number)
