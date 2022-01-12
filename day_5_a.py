@@ -27,7 +27,7 @@ over normal under
 '''
 
 
-def calculate_BMI_metric(n):
+def calculate_bmi_metric(n):
     """ Uses weight(kg) / height^2 (m) to calculate BMI. Takes in n amount of people and asks for their weight and height
 
     Args:
@@ -35,19 +35,24 @@ def calculate_BMI_metric(n):
     """
     bmi_list = []
     people_data = []
+    answer = []
     for i in range(n):
         people_data.append(
-            input(f"Enter weight and height for person {i + 1}: "))
-    print(people_data)
-    #int_people_data = [int(data.split()) for data in people_data]
+            input(f"Enter weight(kg) and height(m) for person {i + 1}: "))
+    
     for person in people_data:
-        print(person)
-        print(type(person))
-        print(person.split())
-        print(list(map(float, person.split())))
-        # for weight, height in person.join()
-        # returns only 1st digit. Very wonky way to do it
-        # print(f"Weight: {person[0]}")
+        data = list(map(float, person.split()))
+        bmi_list.append(data[0]/ (data[1]**2))
+    
+    for bmi in bmi_list:
+        if bmi < 18.5:
+            answer.append("under")
+        elif (bmi >= 18.5) and (bmi < 25.0):
+            answer.append("normal")
+        elif (bmi >= 25.0) and (bmi < 30.0):
+            answer.append("over")
+        else:
+            answer.append("obese")
+    return answer
 
-
-calculate_BMI_metric(2)
+print(calculate_bmi_metric(3))
