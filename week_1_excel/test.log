@@ -1,0 +1,22 @@
+2022-01-16 11:37:51,010 INFO: Searching all .xls files in week_1_excel folder
+2022-01-16 11:37:51,010 INFO: Asking user for what file to analyze
+2022-01-16 11:37:53,785 INFO: User chose expedia_report_monthly_january_2018.xlsx
+2022-01-16 11:37:53,785 INFO: Loading Excel File user chose
+2022-01-16 11:37:53,858 INFO: Grabbing month and year from the file name to filter the data
+2022-01-16 11:37:53,864 INFO: Data from <Worksheet "Summary Rolling MoM">
+2022-01-16 11:37:53,864 INFO: Calls Offered: 16915
+2022-01-16 11:37:53,864 INFO: Abandon after 30s: 2.32%
+2022-01-16 11:37:53,864 INFO: FCR: 86.50%
+2022-01-16 11:37:53,864 INFO: DSAT: 14.20%
+2022-01-16 11:37:53,864 INFO: CSAT: 78.30%
+2022-01-16 12:06:11,988 INFO: Searching all .xls files in week_1_excel folder
+2022-01-16 12:06:11,989 INFO: Asking user for what file to analyze
+2022-01-16 12:06:13,609 INFO: User chose expedia_report_monthly_january_2018.xlsx
+2022-01-16 12:06:13,609 INFO: Loading Excel File user chose
+2022-01-16 12:06:13,678 INFO: Grabbing month and year from the file name to filter the data
+2022-01-16 12:06:13,684 INFO: Data from <Worksheet "Summary Rolling MoM">
+2022-01-16 12:06:13,684 INFO: Calls Offered: 16915
+2022-01-16 12:06:13,684 INFO: Abandon after 30s: 2.32%
+2022-01-16 12:06:13,684 INFO: FCR: 86.50%
+2022-01-16 12:06:13,684 INFO: DSAT: 14.20%
+2022-01-16 12:06:13,684 INFO: CSAT: 78.30%

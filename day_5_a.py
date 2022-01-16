@@ -38,12 +38,12 @@ def calculate_bmi_metric(n):
     answer = []
     for i in range(n):
         people_data.append(
-            input(f"Enter weight(kg) and height(m) for person {i + 1}: "))
-    
+            input(f"Enter weight and height for person {i + 1}: "))
+
     for person in people_data:
         data = list(map(float, person.split()))
-        bmi_list.append(data[0]/ (data[1]**2))
-    
+        bmi_list.append(data[0] / (data[1]**2))
+
     for bmi in bmi_list:
         if bmi < 18.5:
             answer.append("under")
@@ -54,5 +54,6 @@ def calculate_bmi_metric(n):
         else:
             answer.append("obese")
     return answer
+
 
 print(calculate_bmi_metric(3))
