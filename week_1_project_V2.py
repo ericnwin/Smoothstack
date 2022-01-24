@@ -1,3 +1,33 @@
+'''
+Problem Statement:
+1. Please import csv (or) openpyxl & Logging packages for this problem.
+2. Program should take any filename as per the format mentioned as input.
+3. Input month value from the file name where  eg :january(expedia_report_monthly_january_2018.xlsx)
+4. Based on the month and year input values value print the values in logfile using logger
+
+This is from the first tab :
+
+Eg for January :
+
+Calls Offered: 16,915
+Abandon after 30s : 2.32%
+FCR : 86.50%
+DSAT :  14.20%
+CSAT : 78.30%
+
+Similarly go to "VOC Rolling MoM" tab
+
+Grab all the values related to Jan-18 and print.
+
+In Net Promoter Score : Promoters => 200 : good Promoters <200 : bad
+			Passives => 100 : good Passives <100 : bad
+			Decractors => 100 : good Decrators <100 : bad
+
+Rest all values remain the same.
+
+'''
+
+
 from datetime import datetime
 from openpyxl import load_workbook
 import os
@@ -150,6 +180,7 @@ if __name__ == "__main__":
 
     # File path to the excel files you wish to analyze
     file_path = 'C:\\Users\\Eric\\Documents\\Python Lessons\\SmoothStack\\week_1_excel'
+    # Edit file path - NO HARDCODING, should run regardless of where the script is
 
     excel_files = list_excel_files(file_path)
     chosen_file = choose_excel_file(excel_files)

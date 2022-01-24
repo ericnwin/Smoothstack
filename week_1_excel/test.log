@@ -1,20 +1,42 @@
-2022-01-18 14:24:34,142 INFO: Searching all .xls files in week_1_excel
-2022-01-18 14:24:34,142 INFO: Asking user for what file to analyze
-2022-01-18 14:24:43,643 INFO: User chose expedia_report_monthly_january_2018.xlsx
-2022-01-18 14:24:43,643 INFO: Loading Excel File user chose
-2022-01-18 14:24:43,712 INFO: Grabbing month and year from the file name to filter the data
-2022-01-18 14:24:43,717 INFO: Getting header data from 1st sheet
-2022-01-18 14:24:43,718 INFO: Data from <Worksheet "Summary Rolling MoM">
-2022-01-18 14:24:43,718 INFO: Calls Offered: 16915
-2022-01-18 14:24:43,718 INFO: Abandon after 30s: 2.32%
-2022-01-18 14:24:43,718 INFO: FCR: 86.50%
-2022-01-18 14:24:43,718 INFO: DSAT: 14.20%
-2022-01-18 14:24:43,718 INFO: CSAT: 78.30%
-2022-01-18 14:24:43,719 INFO: Data from <Worksheet "VOC Rolling MoM">
-2022-01-18 14:24:43,719 INFO: Base Size: 425
-2022-01-18 14:24:43,719 INFO: Promoters (Recommend Score 9 to 10): 256, which is good!
-2022-01-18 14:24:43,719 WARNING: Passives (Recommend Score 7 to 8): 86, which is bad!
-2022-01-18 14:24:43,719 WARNING: Dectractors (recommend Score 0 to 6): 86, which is bad!
-2022-01-18 14:24:43,719 INFO: AARP Total: 39.70%
-2022-01-18 14:24:43,719 INFO: Sat with Agent %: 78.30%
-2022-01-18 14:24:43,719 INFO: AARP Total: 14.20%
+2022-01-18 15:15:49,353 INFO: Searching all .xls files in week_1_excel
+2022-01-18 15:15:49,353 INFO: Asking user for what file to analyze
+2022-01-18 15:16:07,884 INFO: User chose expedia_report_monthly_march_2018.xlsx
+2022-01-18 15:16:07,884 INFO: Loading Excel File user chose
+2022-01-18 15:16:07,943 INFO: Grabbing month and year from the file name to filter the data
+2022-01-18 15:16:07,948 INFO: Getting header data from 1st sheet
+2022-01-18 15:16:07,949 WARNING: This column does NOT have a year! Please add it for consistency
+2022-01-18 15:16:07,949 INFO: Data from <Worksheet "Summary Rolling MoM">
+2022-01-18 15:16:07,949 INFO: Calls Offered: 22343
+2022-01-18 15:16:07,949 INFO: Abandon after 30s: 3.05%
+2022-01-18 15:16:07,949 INFO: FCR: 86.00%
+2022-01-18 15:16:07,950 INFO: DSAT: 18.00%
+2022-01-18 15:16:07,950 INFO: CSAT: 74.40%
+2022-01-18 15:16:07,950 INFO: Data from <Worksheet "VOC Rolling MoM">
+2022-01-18 15:16:07,950 INFO: Base Size: 508
+2022-01-18 15:16:07,950 INFO: Promoters (Recommend Score 9 to 10): 279, which is good!
+2022-01-18 15:16:07,950 WARNING: Passives (Recommend Score 7 to 8): 21, which is bad!
+2022-01-18 15:16:07,950 WARNING: Dectractors (recommend Score 0 to 6): 33, which is bad!
+2022-01-18 15:16:07,950 INFO: AARP Total: 28.74%
+2022-01-18 15:16:07,950 INFO: Sat with Agent %: 74.40%
+2022-01-18 15:16:07,950 INFO: AARP Total: 18.00%
+2022-01-18 15:43:23,594 INFO: Searching all .xls files in week_1_excel
+2022-01-18 15:43:23,594 INFO: Asking user for what file to analyze
+2022-01-18 15:43:32,168 INFO: User chose expedia_report_monthly_march_2018.xlsx
+2022-01-18 15:43:32,168 INFO: Loading Excel File user chose
+2022-01-18 15:43:32,225 INFO: Grabbing month and year from the file name to filter the data
+2022-01-18 15:43:32,231 INFO: Getting header data from 1st sheet
+2022-01-18 15:43:32,232 WARNING: This column does NOT have a year! Please add it for consistency
+2022-01-18 15:43:32,232 INFO: Data from <Worksheet "Summary Rolling MoM">
+2022-01-18 15:43:32,232 INFO: Calls Offered: 22343
+2022-01-18 15:43:32,232 INFO: Abandon after 30s: 3.05%
+2022-01-18 15:43:32,232 INFO: FCR: 86.00%
+2022-01-18 15:43:32,232 INFO: DSAT: 18.00%
+2022-01-18 15:43:32,232 INFO: CSAT: 74.40%
+2022-01-18 15:43:32,233 INFO: Data from <Worksheet "VOC Rolling MoM">
+2022-01-18 15:43:32,233 INFO: Base Size: 508
+2022-01-18 15:43:32,233 INFO: Promoters (Recommend Score 9 to 10): 279, which is good!
+2022-01-18 15:43:32,233 WARNING: Passives (Recommend Score 7 to 8): 21, which is bad!
+2022-01-18 15:43:32,233 WARNING: Dectractors (recommend Score 0 to 6): 33, which is bad!
+2022-01-18 15:43:32,233 INFO: AARP Total: 28.74%
+2022-01-18 15:43:32,233 INFO: Sat with Agent %: 74.40%
+2022-01-18 15:43:32,233 INFO: AARP Total: 18.00%
